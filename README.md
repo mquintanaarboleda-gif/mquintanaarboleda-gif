@@ -92,13 +92,33 @@ It is my **architecture portfolio**, where I document real-world technology prob
 
 ## Featured Architecture Portfolio
 
-### AWS Digital Banking Architecture
+The projects below are intentionally complementary: one emphasizes **architecture method, traceability and decision governance**, while the other focuses more directly on **AWS solution design and implementation-oriented service choices**.
 
-A complete Solution Architecture case study for a secure and resilient digital-banking platform on AWS. The project demonstrates **ADD 3.0, C4, ADRs, BFF/PKCE, event-driven integration, Transactional Outbox, idempotency, legacy-system integration, Multi-AZ, disaster recovery, security and observability**.
+### 1. AWS Digital Banking Architecture
 
-It includes **18 architecture decisions with trade-offs**, ASR traceability, production risks and **16 editable Draw.io architecture views**.
+**Architecture method, quality attributes and decision governance**
 
-**[Explore the full architecture case study →](https://github.com/mquintanaarboleda-gif/aws-digital-banking-architecture)**
+A complete Solution Architecture case study for a secure and resilient digital-banking platform on AWS, designed from **architectural drivers, quality attributes and business constraints** rather than from a predefined technology stack.
+
+The project demonstrates **ADD 3.0, C4, ADRs, ASR traceability, BFF/PKCE, Transactional Outbox, idempotency, event-driven integration, Anti-Corruption Layer, Multi-AZ, Warm Standby DR, security and observability**.
+
+It includes **18 architecture decisions with alternatives and trade-offs**, production risks, a complete architecture report and **16 editable Draw.io architecture views**.
+
+**[Explore AWS Digital Banking Architecture →](https://github.com/mquintanaarboleda-gif/aws-digital-banking-architecture)**
+
+---
+
+### 2. AWS Digital Banking Solution Architecture
+
+**AWS service design, digital identity and transaction orchestration**
+
+An anonymized Solution Architecture case study centered on the design of digital banking capabilities around an existing Core Banking System, with a stronger focus on **AWS-native service selection and critical business flows**.
+
+The project demonstrates **Amazon Cognito, OAuth 2.0 / OIDC with PKCE, passkeys/WebAuthn, Amazon Rekognition for KYC, Step Functions Standard for transfer orchestration, DynamoDB idempotency controls, EventBridge + SQS/DLQ, ECS Fargate, ElastiCache/Valkey, Direct Connect + VPN and multi-region Warm Standby DR**.
+
+It includes requirement traceability, architecture decisions, production preconditions, a complete anonymized architecture report and **C4-style architecture views rendered directly in GitHub**.
+
+**[Explore AWS Digital Banking Solution Architecture →](https://github.com/mquintanaarboleda-gif/aws-digital-banking-solution-architecture)**
 
 ---
 
