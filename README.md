@@ -90,6 +90,18 @@ It is my **architecture portfolio**, where I document real-world technology prob
 
 ---
 
+## Featured Architecture Portfolio
+
+### AWS Digital Banking Architecture
+
+A complete Solution Architecture case study for a secure and resilient digital-banking platform on AWS. The project demonstrates **ADD 3.0, C4, ADRs, BFF/PKCE, event-driven integration, Transactional Outbox, idempotency, legacy-system integration, Multi-AZ, disaster recovery, security and observability**.
+
+It includes **18 architecture decisions with trade-offs**, ASR traceability, production risks and **16 editable Draw.io architecture views**.
+
+**[Explore the full architecture case study →](https://github.com/mquintanaarboleda-gif/aws-digital-banking-architecture)**
+
+---
+
 ## Architecture Philosophy
 
 > Technology architecture should not start with a product.  
